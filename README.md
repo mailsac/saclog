@@ -5,7 +5,7 @@
 It is supposed to support the two most common syslog formats, RCF 3164 and RCF 5424, and write them to standard out in a simplified format:
 
 ```
-LOG_TIME APP_NAME APP_HOSTNAME, MESSAGE
+LOG_TIME APP_NAME APP_HOSTNAME MESSAGE
 ```
 
 ## installation
