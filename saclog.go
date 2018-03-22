@@ -102,7 +102,7 @@ func parseGolangSyslog(s string) (logParts format.LogParts) {
 	}
 	logParts["hostname"] = metaParts[1]
 
-	if len(messageParts) < 4 {
+	if len(messageParts) < 5 {
 		return logParts
 	}
 	logParts["content"] = strings.Join(messageParts[4:], ":")[1:]
