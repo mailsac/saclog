@@ -18,7 +18,7 @@ Run the executable in linux:
 ./saclog
 ```
 
-## licence
+## License
 
 MIT
 
